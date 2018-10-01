@@ -18,11 +18,12 @@ export class AppComponent  {
     private mapsAPILoader: MapsAPILoader
   ) { }
 
-  getLocations(): Array<{ latitude: number, longitude: number }> {
+  getLocations(): Array<{ latitude: number, longitude: number, label: String, draggable: boolean }> {
     return [
       { 'latitude': 40.0150, 'longitude': -105.2705, 'label' : 'Mountains',  draggable: true},
       { 'latitude': 40.0150, 'longitude': -105.99,   'label' : 'Boulder', draggable: true},
       { 'latitude': 39.7392, 'longitude': -104.9903, 'label' : 'Denver', draggable: true },
+      { 'latitude': 38.7392, 'longitude': -104.9903, 'label' : 'Springs', draggable: true },
     ];
   }
 
