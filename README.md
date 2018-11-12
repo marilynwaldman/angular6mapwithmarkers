@@ -1,3 +1,12 @@
+taken from:
+
+https://stackblitz.com/edit/angular-google-maps-demo?file=app%2Fapp.component.ts
+https://itnext.io/building-a-store-locator-app-with-angular-2-and-google-maps-part-1-39cc4691a4fe
+
+ npm install @agm/core --save
+ npm install @types/googlemaps --save-dev
+
+
 # Angular6MapWithMarkers
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
